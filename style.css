@@ -322,6 +322,7 @@
     height: 60px;
     border: 1px solid #ccc;
     justify-content: center;
+    margin-left: -40px;
 }
 
 .button_mobile span {

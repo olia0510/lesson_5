@@ -23,6 +23,13 @@
         height: 100%;
     }
 
+     .first_screen_left p {
+         color: #ffffff;
+     }
+    .button_mobile {
+        display: flex;
+    }
+
     .second_screen_right h3 {
         font-size: 30px;
         line-height: 31px;
