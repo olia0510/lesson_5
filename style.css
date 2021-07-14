@@ -1,0 +1,350 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+    padding: 0 145px;
+}
+.d-flex {
+    display: flex;
+}
+
+.align-center {
+    align-items: center;
+}
+.header_top {
+    height: 100px;
+}
+
+.header_top_grid {
+    column-gap: 141px;
+}
+
+.header_top_nav_menu {
+    column-gap: 22px;
+}
+
+.nav_menu_item a {
+    font-size: 15px;
+    line-height: 16px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.header_top_buttons {
+    margin-left: 27px;
+    column-gap: 18px;
+}
+
+.header_top_button_login, .header_top_button_expert, .first_screen_button button {
+    font-weight: bold;
+    font-size: 18px;
+    padding: 15px 25px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 100px;
+    transition: background-color 500ms, color 500ms;
+}
+
+.header_top_button_login, .header_top_button_expert:hover {
+    background-color: #ffffff;
+    color: black;
+}
+
+.header_top_button_expert, .header_top_button_login:hover {
+    background-color: black;
+    color: white;
+}
+
+.first_screen_left {
+    padding-top: 100px;
+    max-width: 490px;
+    width: 100%;
+}
+
+.first_screen_left h1 {
+    font-weight: bold;
+    font-size: 77px;
+    line-height: 83px;
+    color: #000000;
+    margin-bottom: 27px;
+}
+.first_screen_left p {
+    font-size: 20px;
+    line-height: 31px;
+    color: #000000;
+}
+
+.first_screen_grid {
+    column-gap: 65px;
+}
+
+.first_screen {
+    position: relative;
+    border-bottom: 1px solid #EAEEF2;
+
+}
+
+.first_screen_button {
+    width: 220px;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    bottom: -33px;
+    left: 144px;
+}
+.first_screen_button h4 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+}
+.first_screen_button button {
+    background-color: black;
+    font-size: 22px;
+    margin-top: 27px;
+    color: #ffffff;
+}
+
+.second_screen {
+    margin-top: 120px;
+    column-gap: 104px;
+
+}
+.second_screen_right h3 {
+    font-weight: bold;
+    font-size: 57px;
+    line-height: 58px;
+    color: #000000;
+}
+
+.second_screen_right p {
+    font-size: 20px;
+    line-height: 31px;
+    color: #000000;
+}
+
+.third_screen {
+    column-gap: 70px;
+    margin-top: 71px;
+}
+
+.third_screen h3 {
+    font-weight: bold;
+    font-size: 58px;
+    line-height: 58px;
+    color: #000000;
+    margin-bottom: 82px;
+}
+
+.third_screen_1 h5, .third_screen_2 h5, .third_screen_3 h5 {
+    font-size: 28px;
+    line-height: 36px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.third_screen_1 p, .third_screen_2 p, .third_screen_3 p {
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    width: 300px;
+}
+
+.third_screen button {
+    height: 50px;
+    background: #F7B2B7;
+    border-radius: 100px;
+    margin-left: 145px;
+}
+
+.fourth_screen {
+    height: 100%;
+    margin-top: 82px;
+    background: #FDECED;
+    border-radius: 0;
+    padding-top: 88px;
+}
+.fourth_screen h3 {
+    font-size: 58px;
+    line-height: 58px;
+    color: #000000;
+    margin-bottom: 82px;
+}
+
+.five_screen{
+    padding-top: 129px;
+
+}
+.five_screen h6 {
+    width: 236px;
+    font-size: 27px;
+    line-height: 36px;
+    color: #000000;
+}
+.five_screen_logo {
+    width: 799px;
+    padding-left: 170px;
+    column-gap: 90px;
+    row-gap: 50px;
+}
+
+.six_screen_left h3 {
+    font-weight: bold;
+    font-size: 58px;
+    line-height: 58px;
+    color: #000000;
+}
+
+.six_screen_left {
+    margin-top: 191px;
+}
+
+.six_screen_left p {
+    font-size: 20px;
+    line-height: 31px;
+    width: 547px;
+    margin-top: 40px;
+}
+.six_screen img {
+    margin-top: 108px;
+    margin-left: 120px;
+}
+
+.six_screen button {
+    background: #F7B2B7;
+    border-radius: 100px;
+    width: 140px;
+    height: 50px;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+    margin-top: 79px;
+}
+
+.seven_screen {
+    margin-top: 108px;
+}
+
+.seven_screen_blue {
+    height: 283px;
+    width: 1150px;
+    background: #8BD4D6;
+    border-radius: 10px;
+}
+.seven_screen_blue_left {
+    margin-left: 90px;
+}
+.seven_screen_blue h3 {
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 56px;
+    color: #000000;
+    margin-top: 89px;
+}
+
+.seven_screen_blue p {
+    font-size: 20px;
+    line-height: 31px;
+    color: #000000;
+    margin-top: 18px;
+}
+
+.seven_screen_blue button {
+    height: 50px;
+    width: 159px;
+    background: #000000;
+    border-radius: 100px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-left: 226px;
+    margin-top: 129px;
+}
+
+.eight_screen {
+    height: 631px;
+    background: #302E3F;
+    border-radius: 0;
+    margin-top: 108px;
+}
+
+.eight_screen_logo img {
+    margin-top: 45px;
+}
+.eight_screen_logo h6 {
+    font-size: 28px;
+    line-height: 36px;
+    color: #FFFFFF;
+    margin-left: 18px;
+    margin-top: 54px;
+}
+
+.eight_screen_last_type {
+    margin-top: 55px;
+    column-gap: 100px;
+}
+.ul {
+    list-style-type: none;
+}
+.ul:first-line {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+.ul {
+    font-size: 16px;
+    line-height: 16px;
+    color: #C5E9EA;
+}
+.mt {
+    margin-top: 8px;
+}
+.eight_screen_last img {
+    margin-left: 500px;
+}
+
+.eight_screen_last {
+    margin-top: 62px;
+    font-size: 16px;
+    line-height: 22px;
+    color: #C5E9EA;
+    column-gap: 27px;
+}
+
+.button_mobile {
+    display: none;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #ccc;
+    justify-content: center;
+}
+
+.button_mobile span {
+    display: block;
+    width: 88%;
+    height: 5px;
+    background-color: #ccc;
+    position: relative;
+}
+
+.button_mobile span::before, .button_mobile span::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #ccc;
+    position: absolute;
+}
+
+.button_mobile span::before {
+    top: -10px;
+}
+
+.button_mobile span::after {
+    bottom: -10px;
+}
